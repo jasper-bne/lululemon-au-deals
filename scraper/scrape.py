@@ -109,7 +109,20 @@ def dedupe_key(url):
 
 
 def scrape_gender(page, gender, url, cap):
-    page.goto(url, wait_until="domcontentloaded", timeout=90000)
+    # GitHub Actions runners sometimes hit net::ERR_HTTP2_PROTOCOL_ERROR
+    # on lululemon (Akamai / HTTP/2). Retry the navigation a few times
+    # with a fresh page state before giving up on this gender.
+    last_exc = None
+    for attempt in range(1, 4):
+        try:
+            page.goto(url, wait_until="domcontentloaded", timeout=90000)
+            break
+        except Exception as e:
+            last_exc = e
+            print(f"[{gender}] goto attempt {attempt}/3 failed: {e}", file=sys.stderr)
+            page.wait_for_timeout(5000 * attempt)
+    else:
+        raise last_exc
     page.wait_for_timeout(4000)
     # Dismiss a cookie/consent banner if one appears (best effort).
     for label in ("Accept", "Accept All", "Got it", "Close"):
@@ -174,7 +187,12 @@ def main():
 
     all_deals = []
     with sync_playwright() as p:
-        launch_kwargs = {"headless": not args.headed}
+        launch_kwargs = {
+            "headless": not args.headed,
+            # --disable-http2 works around net::ERR_HTTP2_PROTOCOL_ERROR
+            # seen on GitHub Actions runners against lululemon/Akamai.
+            "args": ["--disable-http2", "--no-sandbox", "--disable-dev-shm-usage"],
+        }
         if args.executable_path:
             launch_kwargs["executable_path"] = args.executable_path
         browser = p.chromium.launch(**launch_kwargs)
@@ -189,7 +207,13 @@ def main():
             page = ctx.new_page()
             for gender, url in cfg["sources"].items():
                 print(f"Scraping {gender}: {url}")
-                deals = scrape_gender(page, gender, url, cap)
+                try:
+                    deals = scrape_gender(page, gender, url, cap)
+                except Exception as e:
+                    # One gender failing must not lose the other gender's
+                    # deals; the run only fails if NO deals were found at all.
+                    print(f"[{gender}] FAILED after retries: {e}", file=sys.stderr)
+                    continue
                 print(f"  -> {len(deals)} discounted products")
                 all_deals.extend(deals)
         finally:
