@@ -1,0 +1,120 @@
+{
+  "scannedAt": "2026-11-24T02:54:45.739Z",
+  "sources": {
+    "women": "https://www.lululemon.com.au/en-au/c/women-we-made-too-much/n16o10z8mhd",
+    "men": "https://www.lululemon.com.au/en-au/c/men-we-made-too-much/n18mhdznrqw"
+  },
+  "total": 10,
+  "deals": [
+    {
+      "name": "Always Down Puffer Vest",
+      "gender": "men",
+      "category": "男装外套",
+      "salePrice": 199,
+      "originalPrice": 379,
+      "saving": 180,
+      "discountPct": 47.5,
+      "url": "https://www.lululemon.com.au/en-au/p/always-down-puffer-vest/deeq115cz4?color=36865",
+      "colour": "36865"
+    },
+    {
+      "name": "Stretch Glyde Waterproof Jacket",
+      "gender": "men",
+      "category": "男装外套",
+      "salePrice": 174,
+      "originalPrice": 349,
+      "saving": 175,
+      "discountPct": 50.1,
+      "url": "https://www.lululemon.com.au/en-au/p/stretch-glyde-waterproof-jacket/glkncon2s7?color=76950",
+      "colour": "76950"
+    },
+    {
+      "name": "Women's Cross Chill City-to-Trail Jacket",
+      "gender": "women",
+      "category": "女装外套",
+      "salePrice": 174,
+      "originalPrice": 349,
+      "saving": 175,
+      "discountPct": 50.1,
+      "url": "https://www.lululemon.com.au/en-au/p/womens-cross-chill-city-to-trail-jacket/cognawiyde?color=33454",
+      "colour": "33454"
+    },
+    {
+      "name": "Men's Cross Chill City-to-Trail Jacket",
+      "gender": "men",
+      "category": "男装外套",
+      "salePrice": 189,
+      "originalPrice": 349,
+      "saving": 160,
+      "discountPct": 45.8,
+      "url": "https://www.lululemon.com.au/en-au/p/mens-cross-chill-city-to-trail-jacket/jue92qsg59?color=75675",
+      "colour": "75675"
+    },
+    {
+      "name": "Women's Featherweight 900-Down-Fill Quilted Vest",
+      "gender": "women",
+      "category": "女装外套",
+      "salePrice": 189,
+      "originalPrice": 349,
+      "saving": 160,
+      "discountPct": 45.8,
+      "url": "https://www.lululemon.com.au/en-au/p/w-featherweight-900-down-fill-quilted-vest/qbozem2fbr?color=30210",
+      "colour": "30210"
+    },
+    {
+      "name": "Water-Repellent Full-Zip Sweater",
+      "gender": "men",
+      "category": "男装上衣",
+      "salePrice": 149,
+      "originalPrice": 299,
+      "saving": 150,
+      "discountPct": 50.2,
+      "url": "https://www.lululemon.com.au/en-au/p/water-repellent-full-zip-sweater-m/vtknhqyu0u?color=0001",
+      "colour": "0001"
+    },
+    {
+      "name": "Navigation Down Vest Evolve",
+      "gender": "men",
+      "category": "男装外套",
+      "salePrice": 139,
+      "originalPrice": 279,
+      "saving": 140,
+      "discountPct": 50.2,
+      "url": "https://www.lululemon.com.au/en-au/p/navigation-down-vest-evolve/fmowko3l8d?color=74043",
+      "colour": "74043"
+    },
+    {
+      "name": "ABC Slim-Fit 5 Pocket Pant 34L Warpstreme",
+      "gender": "men",
+      "category": "男装裤装",
+      "salePrice": 54,
+      "originalPrice": 179,
+      "saving": 125,
+      "discountPct": 69.8,
+      "url": "https://www.lululemon.com.au/en-au/p/abc-slim-5-pocket-34/n56t5ad73s?color=38426",
+      "colour": "38426"
+    },
+    {
+      "name": "Pace Breaker Jacket",
+      "gender": "men",
+      "category": "男装外套",
+      "salePrice": 134,
+      "originalPrice": 249,
+      "saving": 115,
+      "discountPct": 46.2,
+      "url": "https://www.lululemon.com.au/en-au/p/pace-breaker-jacket/okckgak95v?color=75675",
+      "colour": "75675"
+    },
+    {
+      "name": "ABC Slim-Fit Golf Trouser 32L",
+      "gender": "men",
+      "category": "男装裤装",
+      "salePrice": 99,
+      "originalPrice": 199,
+      "saving": 100,
+      "discountPct": 50.3,
+      "url": "https://www.lululemon.com.au/en-au/p/abc-slim-fit-golf-trouser-32l/oul66pzucc?color=33454",
+      "colour": "33454"
+    }
+  ]
+}
