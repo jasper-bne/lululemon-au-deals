@@ -1,1 +1,120 @@
-ewogICJzY2FubmVkQXQiOiAiMjAyNi0xMS0yNFQxMTozMTo1OC45NjlaIiwKICAic291cmNlcyI6IHsKICAgICJ3b21lbiI6ICJodHRwczovL3d3dy5sdWx1bGVtb24uY29tLmF1L2VuLWF1L2Mvd29tZW4td2UtbWFkZS10b28tbXVjaC9uMTZvMTB6OG1oZCIsCiAgICAibWVuIjogImh0dHBzOi8vd3d3Lmx1bHVsZW1vbi5jb20uYXUvZW4tYXUvYy9tZW4td2UtbWFkZS10b28tbXVjaC9uMThtaGR6bnJxdyIKICB9LAogICJ0b3RhbCI6IDEwLAogICJkZWFscyI6IFsKICAgIHsKICAgICAgIm5hbWUiOiAiQWx3YXlzIERvd24gUHVmZmVyIFZlc3QiLAogICAgICAiZ2VuZGVyIjogIm1lbiIsCiAgICAgICJjYXRlZ29yeSI6ICLnlLfoo4XlpJblpZciLAogICAgICAic2FsZVByaWNlIjogMTk5LAogICAgICAib3JpZ2luYWxQcmljZSI6IDM3OSwKICAgICAgInNhdmluZyI6IDE4MCwKICAgICAgImRpc2NvdW50UGN0IjogNDcuNSwKICAgICAgInVybCI6ICJodHRwczovL3d3dy5sdWx1bGVtb24uY29tLmF1L2VuLWF1L3AvYWx3YXlzLWRvd24tcHVmZmVyLXZlc3QvZGVlcTExNWN6ND9jb2xvcj0wMDAxIiwKICAgICAgImNvbG91ciI6ICIwMDAxIgogICAgfSwKICAgIHsKICAgICAgIm5hbWUiOiAiU3RyZXRjaCBHbHlkZSBXYXRlcnByb29mIEphY2tldCIsCiAgICAgICJnZW5kZXIiOiAibWVuIiwKICAgICAgImNhdGVnb3J5IjogIueUt+ijheWkluWllyIsCiAgICAgICJzYWxlUHJpY2UiOiAxNzQsCiAgICAgICJvcmlnaW5hbFByaWNlIjogMzQ5LAogICAgICAic2F2aW5nIjogMTc1LAogICAgICAiZGlzY291bnRQY3QiOiA1MC4xLAogICAgICAidXJsIjogImh0dHBzOi8vd3d3Lmx1bHVsZW1vbi5jb20uYXUvZW4tYXUvcC9zdHJldGNoLWdseWRlLXdhdGVycHJvb2YtamFja2V0L2dsa25jb24yczc/Y29sb3I9MDAwMSIsCiAgICAgICJjb2xvdXIiOiAiMDAwMSIKICAgIH0sCiAgICB7CiAgICAgICJuYW1lIjogIldvbWVuJ3MgRmVhdGhlcndlaWdodCA5MDAtRG93bi1GaWxsIFF1aWx0ZWQgVmVzdCIsCiAgICAgICJnZW5kZXIiOiAid29tZW4iLAogICAgICAiY2F0ZWdvcnkiOiAi5aWz6KOF5aSW5aWXIiwKICAgICAgInNhbGVQcmljZSI6IDE4OSwKICAgICAgIm9yaWdpbmFsUHJpY2UiOiAzNDksCiAgICAgICJzYXZpbmciOiAxNjAsCiAgICAgICJkaXNjb3VudFBjdCI6IDQ1LjgsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly93d3cubHVsdWxlbW9uLmNvbS5hdS9lbi1hdS9wL3ctZmVhdGhlcndlaWdodC05MDAtZG93bi1maWxsLXF1aWx0ZWQtdmVzdC9xYm96ZW0yZmJyP2NvbG9yPTAwMDEiLAogICAgICAiY29sb3VyIjogIjAwMDEiCiAgICB9LAogICAgewogICAgICAibmFtZSI6ICJDcm9zcyBDaGlsbCBDaXR5LXRvLVRyYWlsIEphY2tldCIsCiAgICAgICJnZW5kZXIiOiAibWVuIiwKICAgICAgImNhdGVnb3J5IjogIueUt+ijheWkluWllyIsCiAgICAgICJzYWxlUHJpY2UiOiAxODksCiAgICAgICJvcmlnaW5hbFByaWNlIjogMzQ5LAogICAgICAic2F2aW5nIjogMTYwLAogICAgICAiZGlzY291bnRQY3QiOiA0NS44LAogICAgICAidXJsIjogImh0dHBzOi8vd3d3Lmx1bHVsZW1vbi5jb20uYXUvZW4tYXUvcC9jcm9zcy1jaGlsbC1jaXR5LXRvLXRyYWlsLWphY2tldC9qdWU5MnFzZzU5P2NvbG9yPTAwMDEiLAogICAgICAiY29sb3VyIjogIjAwMDEiCiAgICB9LAogICAgewogICAgICAibmFtZSI6ICJOYXZpZ2F0aW9uIERvd24gVmVzdCBFdm9sdmUiLAogICAgICAiZ2VuZGVyIjogIm1lbiIsCiAgICAgICJjYXRlZ29yeSI6ICLnlLfoo4XlpJblpZciLAogICAgICAic2FsZVByaWNlIjogMTM5LAogICAgICAib3JpZ2luYWxQcmljZSI6IDI3OSwKICAgICAgInNhdmluZyI6IDE0MCwKICAgICAgImRpc2NvdW50UGN0IjogNTAuMiwKICAgICAgInVybCI6ICJodHRwczovL3d3dy5sdWx1bGVtb24uY29tLmF1L2VuLWF1L3AvbmF2aWdhdGlvbi1kb3duLXZlc3QtZXZvbHZlL2Ztb3drbzNsOGQ/Y29sb3I9MDAwMSIsCiAgICAgICJjb2xvdXIiOiAiMDAwMSIKICAgIH0sCiAgICB7CiAgICAgICJuYW1lIjogIkFCQyBTbGltLUZpdCBHb2xmIFRyb3VzZXIgMzJMIiwKICAgICAgImdlbmRlciI6ICJtZW4iLAogICAgICAiY2F0ZWdvcnkiOiAi55S36KOF6KOk6KOFIiwKICAgICAgInNhbGVQcmljZSI6IDk5LAogICAgICAib3JpZ2luYWxQcmljZSI6IDE5OSwKICAgICAgInNhdmluZyI6IDEwMCwKICAgICAgImRpc2NvdW50UGN0IjogNTAuMywKICAgICAgInVybCI6ICJodHRwczovL3d3dy5sdWx1bGVtb24uY29tLmF1L2VuLWF1L3AvYWJjLXNsaW0tZml0LWdvbGYtdHJvdXNlci0zMmwvb3VsNjZwenVjYz9jb2xvcj0wMDAxIiwKICAgICAgImNvbG91ciI6ICIwMDAxIgogICAgfSwKICAgIHsKICAgICAgIm5hbWUiOiAiQ3JpbmtsZSBOeWxvbiBUcmFjayBKYWNrZXQgV29yZG1hcmsiLAogICAgICAiZ2VuZGVyIjogIndvbWVuIiwKICAgICAgImNhdGVnb3J5IjogIuWls+ijheWkluWllyIsCiAgICAgICJzYWxlUHJpY2UiOiA5NCwKICAgICAgIm9yaWdpbmFsUHJpY2UiOiAxODksCiAgICAgICJzYXZpbmciOiA5NSwKICAgICAgImRpc2NvdW50UGN0IjogNTAuMywKICAgICAgInVybCI6ICJodHRwczovL3d3dy5sdWx1bGVtb24uY29tLmF1L2VuLWF1L3AvY3JpbmtsZS1ueWxvbi10cmFjay1qYWNrZXQtd29yZG1hcmsvdnlqdm1hem90YT9jb2xvcj0wMDAxIiwKICAgICAgImNvbG91ciI6ICIwMDAxIgogICAgfSwKICAgIHsKICAgICAgIm5hbWUiOiAiV29tZW4ncyBCaWcgQ296eSBPdmVyc2l6ZWQgUHVsbG92ZXIgVGVubmlzIiwKICAgICAgImdlbmRlciI6ICJ3b21lbiIsCiAgICAgICJjYXRlZ29yeSI6ICLlpbPoo4XkuIrooaMiLAogICAgICAic2FsZVByaWNlIjogOTQsCiAgICAgICJvcmlnaW5hbFByaWNlIjogMTg5LAogICAgICAic2F2aW5nIjogOTUsCiAgICAgICJkaXNjb3VudFBjdCI6IDUwLjMsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly93d3cubHVsdWxlbW9uLmNvbS5hdS9lbi1hdS9wL3ctYmlnLWNvenktb3ZlcnNpemVkLXB1bGxvdmVyLXRlbm5pcy9zNGc2Ync5NnJ5P2NvbG9yPTAwMDEiLAogICAgICAiY29sb3VyIjogIjAwMDEiCiAgICB9LAogICAgewogICAgICAibmFtZSI6ICJEYXlkcmlmdCBIaWdoLVJpc2UgVGFwZXJlZCBUcm91c2VyIFJlZ3VsYXIiLAogICAgICAiZ2VuZGVyIjogIndvbWVuIiwKICAgICAgImNhdGVnb3J5IjogIuWls+ijheijpOijhSIsCiAgICAgICJzYWxlUHJpY2UiOiA5OSwKICAgICAgIm9yaWdpbmFsUHJpY2UiOiAxODksCiAgICAgICJzYXZpbmciOiA5MCwKICAgICAgImRpc2NvdW50UGN0IjogNDcuNiwKICAgICAgInVybCI6ICJodHRwczovL3d3dy5sdWx1bGVtb24uY29tLmF1L2VuLWF1L3AvZGF5ZHJpZnQtaHItdGFwZXJlZC10cm91c2VyL3Jyc3MwcXBmeDg/Y29sb3I9MDAwMSIsCiAgICAgICJjb2xvdXIiOiAiMDAwMSIKICAgIH0sCiAgICB7CiAgICAgICJuYW1lIjogIkRheWRyaWZ0IEhpZ2gtUmlzZSBUYXBlcmVkIFRyb3VzZXIgQXNpYSBGaXQiLAogICAgICAiZ2VuZGVyIjogIndvbWVuIiwKICAgICAgImNhdGVnb3J5IjogIuWls+ijheijpOijhSIsCiAgICAgICJzYWxlUHJpY2UiOiA5OSwKICAgICAgIm9yaWdpbmFsUHJpY2UiOiAxODksCiAgICAgICJzYXZpbmciOiA5MCwKICAgICAgImRpc2NvdW50UGN0IjogNDcuNiwKICAgICAgInVybCI6ICJodHRwczovL3d3dy5sdWx1bGVtb24uY29tLmF1L2VuLWF1L3AvZGF5ZHJpZnQtaHItdGFwZXJlZC10cm91c2VyLWFzaWEtZml0L25oamxubzdyZTg/Y29sb3I9MDAwMSIsCiAgICAgICJjb2xvdXIiOiAiMDAwMSIKICAgIH0KICBdCn0=
+{
+  "scannedAt": "2026-11-24T11:31:58.969Z",
+  "sources": {
+    "women": "https://www.lululemon.com.au/en-au/c/women-we-made-too-much/n16o10z8mhd",
+    "men": "https://www.lululemon.com.au/en-au/c/men-we-made-too-much/n18mhdznrqw"
+  },
+  "total": 10,
+  "deals": [
+    {
+      "name": "Always Down Puffer Vest",
+      "gender": "men",
+      "category": "男装外套",
+      "salePrice": 199,
+      "originalPrice": 379,
+      "saving": 180,
+      "discountPct": 47.5,
+      "url": "https://www.lululemon.com.au/en-au/p/always-down-puffer-vest/deeq115cz4?color=0001",
+      "colour": "0001"
+    },
+    {
+      "name": "Stretch Glyde Waterproof Jacket",
+      "gender": "men",
+      "category": "男装外套",
+      "salePrice": 174,
+      "originalPrice": 349,
+      "saving": 175,
+      "discountPct": 50.1,
+      "url": "https://www.lululemon.com.au/en-au/p/stretch-glyde-waterproof-jacket/glkncon2s7?color=0001",
+      "colour": "0001"
+    },
+    {
+      "name": "Women's Featherweight 900-Down-Fill Quilted Vest",
+      "gender": "women",
+      "category": "女装外套",
+      "salePrice": 189,
+      "originalPrice": 349,
+      "saving": 160,
+      "discountPct": 45.8,
+      "url": "https://www.lululemon.com.au/en-au/p/w-featherweight-900-down-fill-quilted-vest/qbozem2fbr?color=0001",
+      "colour": "0001"
+    },
+    {
+      "name": "Cross Chill City-to-Trail Jacket",
+      "gender": "men",
+      "category": "男装外套",
+      "salePrice": 189,
+      "originalPrice": 349,
+      "saving": 160,
+      "discountPct": 45.8,
+      "url": "https://www.lululemon.com.au/en-au/p/cross-chill-city-to-trail-jacket/jue92qsg59?color=0001",
+      "colour": "0001"
+    },
+    {
+      "name": "Navigation Down Vest Evolve",
+      "gender": "men",
+      "category": "男装外套",
+      "salePrice": 139,
+      "originalPrice": 279,
+      "saving": 140,
+      "discountPct": 50.2,
+      "url": "https://www.lululemon.com.au/en-au/p/navigation-down-vest-evolve/fmowko3l8d?color=0001",
+      "colour": "0001"
+    },
+    {
+      "name": "ABC Slim-Fit Golf Trouser 32L",
+      "gender": "men",
+      "category": "男装裤装",
+      "salePrice": 99,
+      "originalPrice": 199,
+      "saving": 100,
+      "discountPct": 50.3,
+      "url": "https://www.lululemon.com.au/en-au/p/abc-slim-fit-golf-trouser-32l/oul66pzucc?color=0001",
+      "colour": "0001"
+    },
+    {
+      "name": "Crinkle Nylon Track Jacket Wordmark",
+      "gender": "women",
+      "category": "女装外套",
+      "salePrice": 94,
+      "originalPrice": 189,
+      "saving": 95,
+      "discountPct": 50.3,
+      "url": "https://www.lululemon.com.au/en-au/p/crinkle-nylon-track-jacket-wordmark/vyjvmazota?color=0001",
+      "colour": "0001"
+    },
+    {
+      "name": "Women's Big Cozy Oversized Pullover Tennis",
+      "gender": "women",
+      "category": "女装上衣",
+      "salePrice": 94,
+      "originalPrice": 189,
+      "saving": 95,
+      "discountPct": 50.3,
+      "url": "https://www.lululemon.com.au/en-au/p/w-big-cozy-oversized-pullover-tennis/s4g6bw96ry?color=0001",
+      "colour": "0001"
+    },
+    {
+      "name": "Daydrift High-Rise Tapered Trouser Regular",
+      "gender": "women",
+      "category": "女装裤装",
+      "salePrice": 99,
+      "originalPrice": 189,
+      "saving": 90,
+      "discountPct": 47.6,
+      "url": "https://www.lululemon.com.au/en-au/p/daydrift-hr-tapered-trouser/rrss0qpfx8?color=0001",
+      "colour": "0001"
+    },
+    {
+      "name": "Daydrift High-Rise Tapered Trouser Asia Fit",
+      "gender": "women",
+      "category": "女装裤装",
+      "salePrice": 99,
+      "originalPrice": 189,
+      "saving": 90,
+      "discountPct": 47.6,
+      "url": "https://www.lululemon.com.au/en-au/p/daydrift-hr-tapered-trouser-asia-fit/nhjlno7re8?color=0001",
+      "colour": "0001"
+    }
+  ]
+}
