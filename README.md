@@ -31,8 +31,8 @@ migration. The Muse version of this monitor still has WhatsApp pushes.
 
 GitHub Actions runner IPs are blocked by lululemon/Akamai: run #1 failed
 on `net::ERR_HTTP2_PROTOCOL_ERROR`, run #2 timed out (90s × 3 retries)
-on both gender pages with 0 deals found. The old Playwright scraper is
-kept in `scraper/` for reference only — it is no longer run by any
+on both gender pages with 0 deals found. The old Playwright scraper was
+removed from this repo on 2026-11-24 — it is no longer run by any
 workflow.
 
 ## Setup
@@ -48,13 +48,10 @@ workflow.
 
 ## Configuration
 
-Edit `config.json`:
-
-| Key | Default | Meaning |
-| --- | --- | --- |
-| `minSavingAud` | 30 | (Reference only — the site shows all deals; the Muse monitor used this as its WhatsApp threshold.) |
-| `minDiscountPct` | 25 | Same as above. |
-| `checkHours` | 6 | How often Muse re-scans and publishes. To change it, change the Muse-side schedule (not the workflow — it has no cron any more). |
+There is nothing to configure in this repo. Check frequency (every
+6 hours), the saving/discount thresholds and the watched categories all
+live in the Muse monitor's dashboard — this repo only stores the
+published data and the static site.
 
 ## Honest limitation
 
