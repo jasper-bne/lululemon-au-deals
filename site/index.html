@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lululemon AU — Biggest Savings</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Lululemon AU — Biggest Savings</h1>
+  <p class="sub">We Made Too Much, ranked by dollars saved (AUD). Updated every 6 hours by GitHub Actions.</p>
+  <p class="meta" id="meta">Loading…</p>
+</header>
+
+<section class="filters" aria-label="Filters">
+  <input id="search" type="search" placeholder="Search products…" aria-label="Search products">
+  <fieldset>
+    <legend>Gender</legend>
+    <label><input type="checkbox" class="gender-filter" value="women" checked> Women</label>
+    <label><input type="checkbox" class="gender-filter" value="men" checked> Men</label>
+  </fieldset>
+  <fieldset id="category-filters">
+    <legend>Category</legend>
+    <!-- checkboxes are built from the data, so new categories appear automatically -->
+  </fieldset>
+  <p class="note">Size is not filtered. Prices are the colour variant with the largest saving for each product.</p>
+</section>
+
+<main>
+  <ol id="deals" class="deals"></ol>
+  <p id="empty" class="empty" hidden>No deals match your filters.</p>
+  <p id="error" class="error" hidden>Could not load the latest deals. The last successful scan is shown below, if any.</p>
+</main>
+
+<footer>
+  <p>Source: lululemon.com.au We Made Too Much (women + men). Discount % is calculated from the listed sale and original prices — the site does not show it.</p>
+  <p>Note: Black Friday sale items are not returnable for a change of mind. Prices can change; check the product page before buying.</p>
+  <p><a href="https://github.com/jasper-bne/lululemon-au-deals">Source code on GitHub</a></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
