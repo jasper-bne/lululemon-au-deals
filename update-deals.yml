@@ -1,0 +1,73 @@
+name: Update Lululemon deals
+
+# Runs every 6 hours and on demand. The scraper uses a real browser
+# (Playwright + Chromium) because plain HTTP requests to lululemon.com.au
+# are blocked by Akamai (HTTP 403).
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-deals
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      # NOTE: why storage.googleapis.com? `playwright install chromium`
+      # downloads the Chromium build from Google's official "Chrome for
+      # Testing" storage host, storage.googleapis.com. That is the
+      # documented, official distribution channel for Playwright's
+      # browser binaries — it is not a random third-party mirror, and
+      # nothing from lululemon is fetched from there. The lululemon
+      # site itself is only ever read by the scraper in the next step.
+      - name: Install Chromium for Playwright
+        run: python -m playwright install chromium --with-deps
+
+      - name: Scrape We Made Too Much
+        run: python scraper/scrape.py
+        # No PLAYWRIGHT_BROWSERS_PATH override: install and run both use
+        # Playwright's default browser location (~/.cache/ms-playwright).
+
+      - name: Commit updated data (only if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/deals.json data/top10.json
+          git diff --cached --quiet || git commit -m "Update deals $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
+
+      - name: Copy data into site
+        run: |
+          cp data/deals.json site/deals.json
+          cp data/top10.json site/top10.json
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
