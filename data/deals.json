@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-11-24T21:48:03.679Z",
+  "scannedAt": "2026-11-25T04:01:39.009Z",
   "sources": {
     "women": "https://www.lululemon.com.au/en-au/c/women-we-made-too-much/n16o10z8mhd",
     "men": "https://www.lululemon.com.au/en-au/c/men-we-made-too-much/n18mhdznrqw"
@@ -29,7 +29,7 @@
       "colour": "76950"
     },
     {
-      "name": "Women's Featherweight 900-Down-Fill Quilted Vest",
+      "name": "Featherweight 900-Down-Fill Quilted Vest",
       "gender": "women",
       "category": "女装外套",
       "salePrice": 189,
@@ -172,7 +172,7 @@
       "colour": "73298"
     },
     {
-      "name": "Women's Big Cozy Oversized Pullover Tennis",
+      "name": "Big Cozy Oversized Pullover Tennis",
       "gender": "women",
       "category": "女装上衣",
       "salePrice": 94,
@@ -337,6 +337,17 @@
       "colour": "31382"
     },
     {
+      "name": "Softstreme High-Rise Pants 28\" Asia Fit",
+      "gender": "women",
+      "category": "女装裤装",
+      "salePrice": 74,
+      "originalPrice": 149,
+      "saving": 75,
+      "discountPct": 50.3,
+      "url": "https://www.lululemon.com.au/en-au/p/softstreme-hr-pant-28/ppllsq5qnq?color=74028",
+      "colour": "74028"
+    },
+    {
       "name": "Fast and Free High-Rise Tight 25\" Pockets Updated",
       "gender": "women",
       "category": "女装紧身裤",
@@ -348,7 +359,7 @@
       "colour": "74062"
     },
     {
-      "name": "Men's ShowZero™ Classic-Fit Polo Shirt",
+      "name": "Men's ShowZero Classic-Fit Polo Shirt",
       "gender": "men",
       "category": "男装上衣",
       "salePrice": 74,
@@ -447,7 +458,7 @@
       "colour": "69026"
     },
     {
-      "name": "lululemon Glow Up™ Super-High-Rise Tight 25\"",
+      "name": "Glow Up Super-High-Rise Tight 25\"",
       "gender": "women",
       "category": "女装紧身裤",
       "salePrice": 69,
@@ -554,17 +565,6 @@
       "saving": 70,
       "discountPct": 47,
       "url": "https://www.lululemon.com.au/en-au/p/wunder-train-hr-tight-24-asia/gupkez2zlu?color=0001",
-      "colour": "0001"
-    },
-    {
-      "name": "Softstreme High-Rise Pants 28\" Asia Fit",
-      "gender": "women",
-      "category": "女装裤装",
-      "salePrice": 79,
-      "originalPrice": 149,
-      "saving": 70,
-      "discountPct": 47,
-      "url": "https://www.lululemon.com.au/en-au/p/softstreme-hr-pant-28/ppllsq5qnq?color=0001",
       "colour": "0001"
     },
     {
@@ -702,7 +702,7 @@
     {
       "name": "lululemon Align™ High-Rise Skirt",
       "gender": "women",
-      "category": "女装裙装",
+      "category": "其他",
       "salePrice": 54,
       "originalPrice": 109,
       "saving": 55,
@@ -735,7 +735,7 @@
     {
       "name": "RePleat High-Rise Tennis Skirt",
       "gender": "women",
-      "category": "女装裙装",
+      "category": "其他",
       "salePrice": 54,
       "originalPrice": 109,
       "saving": 55,
@@ -744,7 +744,7 @@
       "colour": "76998"
     },
     {
-      "name": "Enlite Weave-Back Bra High Support, A–DDD(E) Cups",
+      "name": "Enlite Bra Weave",
       "gender": "women",
       "category": "女装上衣",
       "salePrice": 64,
@@ -755,7 +755,7 @@
       "colour": "0001"
     },
     {
-      "name": "Women's Steady State Crew",
+      "name": "Steady State Crew",
       "gender": "women",
       "category": "女装上衣",
       "salePrice": 74,
@@ -834,7 +834,7 @@
     {
       "name": "Stretch Woven Ruffle-Waist High-Rise Short 4\"",
       "gender": "women",
-      "category": "女装裤装",
+      "category": "其他",
       "salePrice": 49,
       "originalPrice": 99,
       "saving": 50,
@@ -911,7 +911,7 @@
     {
       "name": "Fast and Free High-Rise Short 6\" 5 Pocket",
       "gender": "women",
-      "category": "女装裤装",
+      "category": "其他",
       "salePrice": 49,
       "originalPrice": 99,
       "saving": 50,
@@ -1041,7 +1041,7 @@
       "colour": "33454"
     },
     {
-      "name": "Metal Vent Tech Short-Sleeve Shirt",
+      "name": "Metal Vent Tech Short-Sleeve Shirt 2.0",
       "gender": "men",
       "category": "男装上衣",
       "salePrice": 44,
@@ -1114,8 +1114,8 @@
       "originalPrice": 89,
       "saving": 45,
       "discountPct": 50.6,
-      "url": "https://www.lululemon.com.au/en-au/p/daily-multi-pocket-small-zip-top-tote-5l/motnr6t4dv?color=76733",
-      "colour": "76733"
+      "url": "https://www.lululemon.com.au/en-au/p/daily-multi-pocket-small-zip-top-tote-5l/motnr6t4dv?color=76817",
+      "colour": "76817"
     },
     {
       "name": "Fast and Free Lined Running Short 5\"",
@@ -1230,7 +1230,7 @@
     {
       "name": "Sleek Perforated 2-in-1 High-Rise Short",
       "gender": "women",
-      "category": "女装裤装",
+      "category": "其他",
       "salePrice": 99,
       "originalPrice": 139,
       "saving": 40,
@@ -1239,7 +1239,7 @@
       "colour": "77066"
     },
     {
-      "name": "Groove Nulu Super-High-Rise Flared Pant Regular",
+      "name": "Groove Flare Pant Nulu",
       "gender": "women",
       "category": "女装裤装",
       "salePrice": 99,
@@ -1285,7 +1285,7 @@
     {
       "name": "Lightweight High-Rise Tennis Skirt",
       "gender": "women",
-      "category": "女装裙装",
+      "category": "其他",
       "salePrice": 74,
       "originalPrice": 109,
       "saving": 35,
@@ -1307,7 +1307,7 @@
     {
       "name": "Fast and Free High-Rise Classic-Fit Split Short 3\"",
       "gender": "women",
-      "category": "女装裤装",
+      "category": "其他",
       "salePrice": 74,
       "originalPrice": 109,
       "saving": 35,
@@ -1360,7 +1360,7 @@
       "colour": "77066"
     },
     {
-      "name": "All Yours Organic Cotton-Blend Tank Top",
+      "name": "All Yours Organic Cotton Blend Tank Top",
       "gender": "women",
       "category": "女装上衣",
       "salePrice": 29,
@@ -1382,7 +1382,7 @@
       "colour": "0001"
     },
     {
-      "name": "lululemon Energy Longline Bra Medium Support, B-D Cups Evolve",
+      "name": "Energy Longline Bra Medium Support, B–D Cups Evolve",
       "gender": "women",
       "category": "女装上衣",
       "salePrice": 69,
@@ -1426,7 +1426,7 @@
       "colour": "72409"
     },
     {
-      "name": "All-Time Hero Sports Bra Medium Support, B/C Cup",
+      "name": "All-Time Hero Sports Bra Medium Support, B–C Cup",
       "gender": "women",
       "category": "女装上衣",
       "salePrice": 64,
@@ -1516,7 +1516,7 @@
     {
       "name": "Stackable Yoga Cushions 2 Pack",
       "gender": "men",
-      "category": "其他",
+      "category": "配饰/包包",
       "salePrice": 39,
       "originalPrice": 55,
       "saving": 16,
@@ -1534,17 +1534,6 @@
       "discountPct": 29.1,
       "url": "https://www.lululemon.com.au/en-au/p/wunderlust-nano-backpack-fleece/dgxkpb51si?color=75787",
       "colour": "75787"
-    },
-    {
-      "name": "Never Lost Keychain",
-      "gender": "women",
-      "category": "配饰/包包",
-      "salePrice": 14,
-      "originalPrice": 25,
-      "saving": 11,
-      "discountPct": 44,
-      "url": "https://www.lululemon.com.au/en-au/p/never-lost-key-chain/m5bu3uhqze?color=79792",
-      "colour": "79792"
     },
     {
       "name": "Never Lost Keychain Wordmark",
@@ -1567,6 +1556,17 @@
       "discountPct": 25.6,
       "url": "https://www.lululemon.com.au/en-au/p/daily-multi-pocket-nano-zip-top-tote-bag/mlkuz3l5xu?color=81097",
       "colour": "81097"
+    },
+    {
+      "name": "Never Lost Keychain",
+      "gender": "women",
+      "category": "配饰/包包",
+      "salePrice": 19,
+      "originalPrice": 25,
+      "saving": 6,
+      "discountPct": 24,
+      "url": "https://www.lululemon.com.au/en-au/p/never-lost-key-chain/m5bu3uhqze?color=75679",
+      "colour": "75679"
     }
   ]
 }
