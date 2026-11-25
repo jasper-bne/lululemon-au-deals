@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-11-25T10:53:53.786Z",
+  "scannedAt": "2026-11-25T18:10:57.755Z",
   "sources": {
     "women": "https://www.lululemon.com.au/en-au/c/women-we-made-too-much/n16o10z8mhd",
     "men": "https://www.lululemon.com.au/en-au/c/men-we-made-too-much/n18mhdznrqw"
@@ -14,8 +14,8 @@
       "originalPrice": 379,
       "saving": 180,
       "discountPct": 47.5,
-      "url": "https://www.lululemon.com.au/en-au/p/always-down-puffer-vest/deeq115cz4?color=36865",
-      "colour": "36865"
+      "url": "https://www.lululemon.com.au/en-au/p/always-down-puffer-vest/deeq115cz4",
+      "colour": null
     },
     {
       "name": "Stretch Glyde Waterproof Jacket",
@@ -25,19 +25,8 @@
       "originalPrice": 349,
       "saving": 175,
       "discountPct": 50.1,
-      "url": "https://www.lululemon.com.au/en-au/p/stretch-glyde-waterproof-jacket/glkncon2s7?color=76950",
-      "colour": "76950"
-    },
-    {
-      "name": "Women's Featherweight 900-Down-Fill Quilted Vest",
-      "gender": "women",
-      "category": "女装外套",
-      "salePrice": 189,
-      "originalPrice": 349,
-      "saving": 160,
-      "discountPct": 45.8,
-      "url": "https://www.lululemon.com.au/en-au/p/w-featherweight-900-down-fill-quilted-vest/qbozem2fbr?color=30210",
-      "colour": "30210"
+      "url": "https://www.lululemon.com.au/en-au/p/stretch-glyde-waterproof-jacket/glkncon2s7",
+      "colour": null
     },
     {
       "name": "Men's Cross Chill City-to-Trail Jacket",
@@ -47,8 +36,19 @@
       "originalPrice": 349,
       "saving": 160,
       "discountPct": 45.8,
-      "url": "https://www.lululemon.com.au/en-au/p/mens-cross-chill-city-to-trail-jacket/jue92qsg59?color=75675",
-      "colour": "75675"
+      "url": "https://www.lululemon.com.au/en-au/p/mens-cross-chill-city-to-trail-jacket/jue92qsg59",
+      "colour": null
+    },
+    {
+      "name": "Women's Featherweight 900-Down-Fill Quilted Vest",
+      "gender": "women",
+      "category": "女装外套",
+      "salePrice": 189,
+      "originalPrice": 349,
+      "saving": 160,
+      "discountPct": 45.8,
+      "url": "https://www.lululemon.com.au/en-au/p/womens-featherweight-900-fill-down-quilted-vest/q8h5j4z1v9",
+      "colour": null
     },
     {
       "name": "Water-Repellent Full-Zip Sweater",
@@ -58,8 +58,8 @@
       "originalPrice": 299,
       "saving": 150,
       "discountPct": 50.2,
-      "url": "https://www.lululemon.com.au/en-au/p/water-repellent-full-zip-sweater-m/vtknhqyu0u?color=0001",
-      "colour": "0001"
+      "url": "https://www.lululemon.com.au/en-au/p/water-repellent-full-zip-sweater-m/vtknhqyu0u",
+      "colour": null
     },
     {
       "name": "Navigation Down Vest Evolve",
@@ -69,8 +69,8 @@
       "originalPrice": 279,
       "saving": 140,
       "discountPct": 50.2,
-      "url": "https://www.lululemon.com.au/en-au/p/navigation-down-vest-evolve/fmowko3l8d?color=74043",
-      "colour": "74043"
+      "url": "https://www.lululemon.com.au/en-au/p/navigation-down-vest-evolve/fmowko3l8d",
+      "colour": null
     },
     {
       "name": "ABC Slim-Fit 5 Pocket Pant 34L Warpstreme",
@@ -80,8 +80,8 @@
       "originalPrice": 179,
       "saving": 125,
       "discountPct": 69.8,
-      "url": "https://www.lululemon.com.au/en-au/p/abc-slim-5-pocket-34/n56t5ad73s?color=38426",
-      "colour": "38426"
+      "url": "https://www.lululemon.com.au/en-au/p/abc-slim-5-pocket-34/n56t5ad73s",
+      "colour": null
     },
     {
       "name": "Pace Breaker Jacket",
@@ -91,8 +91,8 @@
       "originalPrice": 249,
       "saving": 115,
       "discountPct": 46.2,
-      "url": "https://www.lululemon.com.au/en-au/p/pace-breaker-jacket/okckgak95v?color=75675",
-      "colour": "75675"
+      "url": "https://www.lululemon.com.au/en-au/p/pace-breaker-jacket/okckgak95v",
+      "colour": null
     },
     {
       "name": "Wunder Train High-Rise Crop with Pockets 23\"",
@@ -102,8 +102,8 @@
       "originalPrice": 139,
       "saving": 100,
       "discountPct": 71.9,
-      "url": "https://www.lululemon.com.au/en-au/p/wunder-train-hr-crop-pockets-23/xo73k7m8wp?color=0001",
-      "colour": "0001"
+      "url": "https://www.lululemon.com.au/en-au/p/wunder-train-hr-crop-pockets-23/xo73k7m8wp",
+      "colour": null
     },
     {
       "name": "ABC Slim-Fit Golf Trouser 32L",
@@ -113,8 +113,8 @@
       "originalPrice": 199,
       "saving": 100,
       "discountPct": 50.3,
-      "url": "https://www.lululemon.com.au/en-au/p/abc-slim-fit-golf-trouser-32l/oul66pzucc?color=33454",
-      "colour": "33454"
+      "url": "https://www.lululemon.com.au/en-au/p/abc-slim-fit-golf-trouser-32l/oul66pzucc",
+      "colour": null
     }
   ]
 }
